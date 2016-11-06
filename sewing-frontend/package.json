@@ -1,0 +1,36 @@
+{
+  "name": "sewing-web",
+  "version": "1.0.0",
+  "description": "sewing-web",
+  "main": "application/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --progress --inline --colors --display-error-details",
+    "dev": "webpack-dev-server --config webpack.config-dev.js --progress --inline --colors --display-error-details",
+    "build": "webpack -p --config webpack.config.js --progress --inline --colors --display-error-details",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "history": "^2.0.1",
+    "jquery": "^3.1.0",
+    "jsx-loader": "^0.13.2",
+    "prismjs": "^1.5.1",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.7.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux": "^3.5.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.3.1"
+  }
+}

@@ -1,0 +1,14 @@
+# eclipse project files
+.idea
+*.iml
+
+# maven package directory
+/target
+*/target
+
+# log
+*.log
+
+# webapp node_modules
+sewing-frontend/node_modules
+
